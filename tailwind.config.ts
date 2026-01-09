@@ -29,10 +29,10 @@ const config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#070A29", // Legacy background
-        foreground: "#FFFFFF", // Legacy text
+        background: "#070A29",
+        foreground: "#FFFFFF",
         primary: {
-          DEFAULT: "#5C27FE", // Legacy primary
+          DEFAULT: "#5C27FE",
           foreground: "#FFFFFF",
         },
         secondary: {
@@ -59,24 +59,15 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Legacy colors
-        "primary-color": "#5C27FE",
-        "bg-1": "#130F40",
-        "bg-2": "#010F33",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      backgroundImage: {
-        'gradient-main': 'linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%)',
-        'gradient-box': 'linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%)',
-        'gradient-box-vertical': 'linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 73.86%)',
-      },
       fontFamily: {
-        body: ["var(--font-readex-pro)", "sans-serif"],
-        heading: ["var(--font-conthrax)", "sans-serif"],
+        heading: ["var(--font-heading)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
